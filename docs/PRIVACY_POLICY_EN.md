@@ -25,7 +25,6 @@ Atlas-Lens ("the Service") values your privacy. This Privacy Policy explains wha
 |---|---|
 | API keys | Authentication keys you enter to use AI services |
 | Chat messages | Conversations between you and the AI |
-| Voice recordings | Audio recorded when you explicitly press the record button |
 | User settings | Theme, language, AI engine preferences, and other configurations |
 
 ### 1-3. Web Page Content Access
@@ -43,7 +42,7 @@ Web page content accessed is used only temporarily for generating AI responses a
 
 | Purpose | Data Used |
 |---|---|
-| Providing AI chat service | Chat messages, web page content, voice recordings |
+| Providing AI chat service | Chat messages, web page content |
 | AI API authentication | API keys |
 | Service improvement and analytics | Client ID, usage events, page views |
 | Maintaining user experience | User settings, chat history |
@@ -55,7 +54,6 @@ Web page content accessed is used only temporarily for generating AI responses a
 | Data | Retention Period |
 |---|---|
 | Chat history | Until user-configured retention period expires or manual deletion |
-| Voice recordings | Until manually deleted by user |
 | API keys | Until deleted by user or extension is uninstalled |
 | Client ID | Until extension is uninstalled |
 | User settings | Until extension is uninstalled |
@@ -79,8 +77,8 @@ The Service transmits data to the following third parties for AI functionality a
 
 ## 5. Data Security
 
-- **Data Encryption**: Sensitive user data, including API keys, chat session history, and voice recordings, are encrypted before being securely stored in the browser's local storage (`chrome.storage.local`).
-- **Local Storage**: All user data — chat history, voice recordings, and settings — is stored locally in your browser and is not collected on a separate server.
+- **Data Encryption**: Sensitive user data, including API keys and chat session history, are encrypted before being securely stored in the browser's local storage (`chrome.storage.local`).
+- **Local Storage**: All user data, including chat history and settings, is stored locally in your browser and is not collected on a separate server.
 - **HTTPS**: All external API communications are encrypted via HTTPS.
 
 ---
@@ -90,7 +88,6 @@ The Service transmits data to the following third parties for AI functionality a
 You may exercise the following rights at any time:
 
 - **Delete chat history**: Clear all conversation records from the settings page
-- **Delete voice recordings**: Remove individual recordings
 - **Manage API keys**: Add, change, or delete keys from the settings page
 - **Disable automatic page reading**: Turn off auto page context features in settings
 - **Uninstall the extension**: Removing the extension from Chrome automatically deletes all locally stored data
